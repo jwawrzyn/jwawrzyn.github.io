@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+
+    <title>Narrow Jumbotron Template for Bootstrap</title>
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link rel="stylesheet" href="/CSS/bootstrap.min.css">
+		<link rel="stylesheet" href="/CSS/bootstrap-darkly.css">
+		
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header">
+				<div class="navbar navbar-default">
+				  <div class="navbar-header">
+				    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				      <span class="icon-bar"></span>
+				    </button>
+				    <a class="navbar-brand" href="#">Jenny Wawrzynczak</a>
+				  </div>
+				  <!-- Navigation Bar -->
+				  <div class="navbar-collapse collapse navbar-responsive-collapse">
+				    <ul class="nav navbar-nav">
+				      <li class="active"><a href="#home">Home</a></li>
+				      <li><a href="projects.html">Projects</a></li>
+				      <li><a href="#">Photography</a></li>
+				      <li><a href="#">Contact Me</a></li>
+				    </ul>
+				  </div>
+				</div>
+        <!-- <h3 class="text-muted">About Me</h3> -->
+      </div>
+
+      <div class="jumbotron">
+      	<h1>About Me</h1>
+			  <h3>Professional</h3>
+			  <p>I love what I do and what I do is create software. Professionally I work in the .Net world, with C# and Vb.Net. Personally, I love to dabble in everything. I’ve spent some time working in lisp, python, java and others.</p>
+			  <h3>Personal</h3>
+			  <p>I love to play with photography, taking many, many, many photos of my kid or some of the beautiful places with like to visit.</p>
+				<p>I always enjoy a good game of golf, and never manage to keep myself stocked up with books. Always on that search for that next book to read.</p>
+				<p>You can check out some of my personal projects on github at https://github.com/jwawrzyn</p>
+			  <!-- <p><a class="btn btn-primary btn-lg">Learn more</a></p> -->
+			</div>
+
+      <div class="footer">
+        <p>&copy; Jenny Wawrzynczak 2014</p>
+      </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
